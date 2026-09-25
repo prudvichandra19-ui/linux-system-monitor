@@ -20,7 +20,39 @@ A lightweight command-line monitoring script written in Bash that checks CPU usa
 
 1. Clone the repository:
 
- ```bash
-git clone https://github.com/prudvichandra19-ui/linux-system-monitor.git
-cd linux-system-monitor
+   ```bash
+   git clone https://github.com/prudvichandra19-ui/linux-system-monitor.git
+   cd linux-system-monitor
+   ```
 
+2. Make the script executable:
+
+   ```bash
+   chmod +x monitor.sh
+   ```
+
+3. Run the monitor:
+
+   ```bash
+   ./monitor.sh
+   ```
+
+## Bash Script Preview
+
+```bash
+#!/bin/bash
+
+echo "Linux System Health Monitor"
+echo "==========================="
+echo "Hostname: $(hostname)"
+echo "Uptime: $(uptime -p)"
+echo
+echo "Memory Usage:"
+free -h
+echo
+echo "Disk Usage:"
+df -h /
+echo
+echo "Top CPU Processes:"
+ps aux --sort=-%cpu | head -n 6
+```
