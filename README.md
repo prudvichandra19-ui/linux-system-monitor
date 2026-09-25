@@ -28,13 +28,13 @@ A lightweight command-line monitoring script written in Bash that checks CPU usa
 2. Make the script executable:
 
    ```bash
-   chmod +x monitor.sh
+   chmod +x sysmon.sh
    ```
 
-3. Run the monitor:
+3. Run the sysmon:
 
    ```bash
-   ./monitor.sh
+   ./sysmon.sh
    ```
 
 ## Bash Script Preview
