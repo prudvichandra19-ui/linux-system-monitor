@@ -22,3 +22,8 @@ A lightweight command-line monitoring script written in Bash that checks CPU usa
   https://github.com/prudvichandra19-ui/linux-system-monitor.git
 
   cd linux-system-monitor
+ 2. ```bash
+ chmod +x sysmon.sh
+ 
+ 3. ```bash
+./sysmon.sh
