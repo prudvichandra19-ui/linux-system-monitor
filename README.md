@@ -17,7 +17,6 @@ A lightweight command-line monitoring script written in Bash that checks CPU usa
 - Standard GNU core utilities (`awk`, `df`, `free`, `ps`)
 
 ## Installation & Usage
-
 1. Clone the repository:
    ```bash
   https://github.com/prudvichandra19-ui/linux-system-monitor.git
