@@ -20,6 +20,6 @@ A lightweight command-line monitoring script written in Bash that checks CPU usa
 
 1. Clone the repository:
 
-   ```bash
+ ```bash
 git clone https://github.com/prudvichandra19-ui/linux-system-monitor.git
 cd linux-system-monitor
