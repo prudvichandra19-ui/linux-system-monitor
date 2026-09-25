@@ -17,15 +17,9 @@ A lightweight command-line monitoring script written in Bash that checks CPU usa
 - Standard GNU core utilities (`awk`, `df`, `free`, `ps`)
 
 ## Installation & Usage
-1. Clone the repository:
-   ```bash
-  https://github.com/prudvichandra19-ui/linux-system-monitor.git
 
-  cd linux-system-monitor
- 2.Make the script executable:
-    ```bash
-  chmod +x sysmon.sh
- 
- 3.run the code
-    ```bash
-./sysmon.sh
+1. Clone the repository:
+
+   ```bash
+git clone https://github.com/prudvichandra19-ui/linux-system-monitor.git
+cd linux-system-monitor
